@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login_1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="menu" id="nav">
+        <span class="nav-item active">
+            <span class="icon">
+                <i data-feather="home"></i>
+            </span>
+            <a href="#">Home</a>
+        </span>
+        <span class="nav-item">
+            <span class="icon">
+                <i data-feather="search"></i>
+            </span>
+            <a href="#">Search</a>
+        </span>
+        <span class="nav-item">
+            <span class="icon">
+                <span class="subicon">13</span>
+                <i data-feather="bell"></i>
+            </span>
+            <a href="#">Notifications</a>
+        </span>
+        <span class="nav-item">
+            <span class="icon">
+                <i data-feather="star"></i>
+            </span>
+            <a href="#">Favorites</a>
+        </span>
+        <span class="nav-item">
+            <span class="icon">
+                <span class="subicon">1</span>
+                <i data-feather="bell"></i>
+            </span>
+            <a href="#">Your Profile</a>
+        </span>
+    </nav>
+    <div class="cont">
+        <form action="">
+            <h1>Login</h1>
+            <div class="input-box">
+                <input type="text" placeholder="Enter Your Name" required>
+                <i class='bx bxs-user'></i>            
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="Enter Valid Password" required>
+                <i class='bx bxs-lock'></i>
+            </div>
+            <div class="remembeer-forgot">
+                <label for="">
+                    <input type="checkbox" name="" id="">
+                    Remember Me
+                </label>
+                
+            </div>
+            <button type="submit" class="btn">Login</button>
+            <div class="register-link">
+                <p>Don't have an account? <a href="#">Register</a></p>
+            </div>
+    
+        </form>
+    </div>
+    <script>
+        feather.replace();
+
+    </script>
+</body>
+</html>
